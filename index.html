@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Form</title>
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Order Form</h2>
+      <form action="">
+        <h4>Automate Invoice Generator</h4>
+        <!-- Order Date Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <h4>Order Date</h4>
+            <input type="date" required class="dod" />
+          </div>
+        </div>
+        <!-- Order Date End -->
+        <!-- Name Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <input type="text" placeholder="Name" required class="name" />
+            <i class="fa-solid fa-user icon"></i>
+          </div>
+        </div>
+        <!-- Name End -->
+        <!-- Phone Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <input type="number" placeholder="Phone" required class="name" />
+            <i class="fa-solid fa-phone icon"></i>
+          </div>
+        </div>
+        <!-- Phone End -->
+        <!-- Email Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="email"
+              placeholder="Email Address"
+              required
+              class="name"
+            />
+            <i class="fa-solid fa-envelope icon"></i>
+          </div>
+        </div>
+        <!-- Email End -->
+        <!-- Address Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <input type="text" placeholder="Address" required class="name" />
+            <i class="fa-solid fa-location-dot icon"></i>
+          </div>
+        </div>
+        <!-- Address End -->
+        <!-- Database Name Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="text"
+              placeholder="Database Name"
+              required
+              class="name"
+            />
+            <i class="fa-solid fa-database icon"></i>
+          </div>
+        </div>
+        <!-- Database Name End -->
+        <!-- Data Filter Detals Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <input type="text" placeholder="Data Filter Detals" class="name" />
+            <i class="fa-solid fa-filter icon"></i>
+          </div>
+        </div>
+        <!-- Data Filter Detals End -->
+        <!-- Database Quantity Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="text"
+              placeholder="Database Quantity"
+              required
+              class="name"
+            />
+            <i class="fa-solid fa-ranking-star icon"></i>
+          </div>
+        </div>
+        <!-- Database Quantity End -->
+        <!-- Database Price Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="number"
+              placeholder="Database Price"
+              required
+              class="name"
+            />
+            <i class="fa-solid fa-hand-holding-dollar icon"></i>
+          </div>
+        </div>
+        <!-- Database Price End -->
+        <!-- Total Price Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="number"
+              placeholder="Total Price"
+              required
+              class="name"
+            />
+            <i class="fa-solid fa-hand-holding-dollar icon"></i>
+          </div>
+        </div>
+        <!-- Total Price End -->
+        <!-- Agent Name Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <input type="text" placeholder="Agent Name" required class="name" />
+            <i class="fa-solid fa-user icon"></i>
+          </div>
+        </div>
+        <!-- Agent Name End -->
+        <!-- Radio Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <h4>Select Payment</h4>
+            <input type="radio" name="payment" required id="b1" />
+            <label for="b1">Cryptocurrency</label>
+            <input type="radio" name="payment" required id="b2" />
+            <label for="b2">Western Union</label>
+            <input type="radio" name="payment" required id="b3" />
+            <label for="b3">Wise</label>
+            <input type="radio" name="payment" required id="b4" />
+            <label for="b4">Bank Transfer</label>
+            <input type="radio" name="payment" required id="b5" />
+            <label for="b5">UPI</label>
+          </div>
+        </div>
+        <!-- Radio End -->
+        <!-- Other Payment Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <input
+              type="text"
+              placeholder="Other Payment"
+              required
+              class="name"
+            />
+            <i class="fa-solid fa-route icon"></i>
+          </div>
+        </div>
+        <!-- Other Payment  End -->
+        <!-- Button Start -->
+        <div class="input_group">
+          <div class="input_box">
+            <button type="submit">Submit</button>
+          </div>
+        </div>
+        <!-- Button End -->
+      </form>
+    </div>
+  </body>
+</html>
